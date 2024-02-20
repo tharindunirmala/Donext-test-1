@@ -1,0 +1,93 @@
+/* Form Container */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid var(--gray-300);
+    border-radius: 10px;
+    background-color: var(--gray-100);
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Fields */
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input[type="text"],
+  .form-field input[type="email"],
+  .form-field input[type="password"],
+  .form-field select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid var(--gray-300);
+    border-radius: 5px;
+    background-color: var(--gray-200);
+  }
+  
+  .form-field input[type="text"]:focus,
+  .form-field input[type="email"]:focus,
+  .form-field input[type="password"]:focus,
+  .form-field select:focus {
+    outline: none;
+    border-color: var(--blue-500);
+  }
+  
+  /* Error Message */
+  .error-message {
+    font-size: 0.875rem;
+    color: var(--red-600);
+    margin-top: 5px;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue-500);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: var(--blue-600);
+  }
+  
+  /* Reset Button */
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid var(--gray-300);
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--gray-700);
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .reset-button:hover {
+    border-color: var(--gray-500);
+  }
+  
+  /* Success Message */
+  .success-message {
+    font-size: 1rem;
+    color: var(--green-600);
+    margin-top: 20px;
+  }
+  
