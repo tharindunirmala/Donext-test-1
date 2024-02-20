@@ -28,7 +28,7 @@ const SignupForm = ({ switchToLogin }) => {
         validationSchema={validationSchema}
         onSubmit={(values, { setSubmitting }) => {
           setTimeout(() => {
-            alert("Welcome Home!");
+            alert("Welcome User!");
             setSubmitting(false);
           }, 400);
         }}
